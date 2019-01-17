@@ -1,6 +1,6 @@
 #include <stdio.h>
 char arr[1000];
-int index = 0;
+int index=0;
 int isMingan(char x)
 {
     int count = 0;
@@ -32,8 +32,8 @@ int main()
         printf("4---tihuanminganzifu:\n");
         printf("5---chengxutuichu:\n");
         printf("qingshuruxiangyingdegonggnegnbianhao:\n");
-        int code;
-        scanf("%d", code);
+        int code=0;
+        scanf("%d", &code);
         if (code == 1)
         {
             printf("tianjiayigeminganzifu:\n");
@@ -92,6 +92,8 @@ int main()
         }
         if (code == 5)
         {
+            printf("chengxujieshu:\n");
+            break;
         }
     }
 
