@@ -27,6 +27,12 @@ int main(){
 
         }
          if(code==2){
+             printf("shanchuzuihouyigeminganzifu:\n");
+             index--;
+             printf("shanchuchenggong,dianjihuichejixu:\n");
+             char x;
+            scanf("%c",&x);
+            scanf("%c",&x); 
             
         }
          if(code==3){
